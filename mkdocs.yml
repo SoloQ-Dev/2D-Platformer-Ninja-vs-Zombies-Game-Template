@@ -1,0 +1,11 @@
+site_name: 2D-Platformer-Ninja-vs-Zombies-Game-Template-Documentation
+site_url: https://soloq-dev.wixsite.com/main
+nav:
+    - Getting Started: index.md
+    - Hierarchy: hierarchy.md
+    - Code: code.md
+    - New Input System: input.md 
+    - Images: images.md
+    - Credit: credit.md
+
+theme: readthedocs
