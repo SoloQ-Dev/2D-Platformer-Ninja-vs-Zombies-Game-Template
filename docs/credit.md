@@ -10,7 +10,7 @@ Contact:
 
 ## Other Assets
 
-* Idle Clicker Car Game Template - [Asset store](https://assetstore.unity.com/packages/templates/packs/idle-clicker-car-game-template-236294
+* Idle Clicker Car Game Template - [Asset store](https://assetstore.unity.com/packages/templates/packs/idle-clicker-car-game-template-236294)
 * Clicker-Idle Game Template - [Asset store](https://assetstore.unity.com/packages/templates/packs/clicker-idle-game-template-134752#publisher)
 * 2D Platformer Game Template - [Asset store](https://assetstore.unity.com/packages/templates/packs/2d-platformer-game-template-139368#description)
 * The Battle Multiplayer Game Template - [Asset store](https://assetstore.unity.com/packages/templates/systems/the-battle-multiplayer-game-template-144703)

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://soloq-dev.wixsite.com/main/hierarchy/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Hierarchy - Idle Clicker Car Game Template Documentation</title>
+    <title>Hierarchy - 2D-Platformer-Ninja-vs-Zombies-Game-Template-Documentation</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
@@ -31,7 +31,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
     <div class="wy-side-scroll">
       <div class="wy-side-nav-search">
-          <a href=".." class="icon icon-home"> Idle Clicker Car Game Template Documentation
+          <a href=".." class="icon icon-home"> 2D-Platformer-Ninja-vs-Zombies-Game-Template-Documentation
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
       <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
@@ -59,6 +59,10 @@
                 </li>
               </ul>
               <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../input/">New Input System</a>
+                </li>
+              </ul>
+              <ul>
                 <li class="toctree-l1"><a class="reference internal" href="../images/">Images</a>
                 </li>
               </ul>
@@ -73,7 +77,7 @@
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
       <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="..">Idle Clicker Car Game Template Documentation</a>
+          <a href="..">2D-Platformer-Ninja-vs-Zombies-Game-Template-Documentation</a>
         
       </nav>
       <div class="wy-nav-content">
@@ -95,8 +99,6 @@
 <h2 id="project-folders">Project folders</h2>
 <ul>
    <li>Animation - Animations used in the asset</li>
-   <li>Audio - Audio files</li>
-   <li>Configs - Upgrade configs</li>
    <li>Fonts - Fonts for text</li>
    <li>Images - Sprites, icons</li>
    <li>Materials - Scene materials</li>
@@ -105,23 +107,18 @@
    <li>Scripts - All project logic</li>
    <li>TextMesh Pro - Resources for using TextMeshPro</li>
    <li>Tilemap - Level Tiles</li>
-   <li>GameData.data - Save file (to reset game saves, delete this file)</li>
+   <li>Volume - Post processing configs</li>
+   <li></li>
 </ul>
 
 <h2 id="scene">Scene</h2>
 <ul>
    <li>Main Camera - main camera on scene</li>
    <li>[Level] - here everything is related to the level, TileMap, Background </li>
-   <li>Road - Stores the game part associated with the car</li>
-   <li>Road/Car - Vehicle visual object</li>
-   <li>Road/Waypoints - Waypoints where the car moves (set on the Road/Car object)</li>
    <li>[UI] - here are all the objects responsible for the UI </li>
-   <li>[Managers]/GameStarter - Object responsible for starting game components</li>
-   <li>[Managers]/GameLoader - Loading saves</li>
-   <li>[Managers]/GameUI - Game UI logic</li>
-   <li>[Managers]/GameLogic - Main game logic</li>
+   <li>[Managers]/Managers - The object containing Game/UI/Mobile controllers/li>
    <li>[Managers]/EventSystem - Standard object for the UI part to work</li>
-   <li>[Audio] - Music</li>
+   <li>Volume - Level post processing</li>
 </ul>
               
             </div>
